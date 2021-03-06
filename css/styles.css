@@ -21,12 +21,16 @@ ul {
 
 /* шапка сайта */
 
-.site-nav-list .link {
+.site-nav .link {
   color: var(--title-text-color);
 }
 
-.nav .list:hover,
-.nav .list:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -81,4 +85,19 @@ ul {
 
 .footer .link {
   color: var(--complementary-color);
+}
+
+/* Portfolio */
+
+.projects .link {
+  color: var(--title-text-color);
+}
+
+.projects .link:hover,
+.projects .link:focus {
+  color: var(--accent-color);
+}
+
+.site-projects .title {
+  color: var(--title-text-color);
 }
