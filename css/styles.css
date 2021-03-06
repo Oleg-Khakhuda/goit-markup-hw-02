@@ -4,10 +4,12 @@
   --accent-color: #2196f3;
   --primary-write-color: #ffffff;
   --complementary-color: rgba(255, 255, 255, 0.6);
+  --background-button-color: #f5f4fa;
 }
 
 body {
-  background-color: #b98383;
+  background-color: #f0e5e5;
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
 }
@@ -54,6 +56,17 @@ ul {
   background-color: var(--accent-color);
 }
 
+.button.primary {
+  color: var(--title-text-color);
+  background-color: var(--background-button-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-write-color);
+  background-color: var(--accent-color);
+}
+
 /* Особенности */
 
 .features .title {
@@ -72,8 +85,8 @@ ul {
 
 /* Наша команда */
 
-.command .title,
-.command .name {
+.team .title,
+.team .name {
   color: var(--title-text-color);
 }
 
@@ -88,15 +101,6 @@ ul {
 }
 
 /* Portfolio */
-
-.projects .link {
-  color: var(--title-text-color);
-}
-
-.projects .link:hover,
-.projects .link:focus {
-  color: var(--accent-color);
-}
 
 .site-projects .title {
   color: var(--title-text-color);
