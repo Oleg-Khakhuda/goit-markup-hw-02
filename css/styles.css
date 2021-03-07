@@ -19,7 +19,14 @@ ul {
 }
 
 .logo {
+}
+
+.logo-first {
   color: var(--accent-color);
+}
+
+.logo-second {
+  color: #000000;
 }
 
 /* шапка сайта */
