@@ -19,6 +19,7 @@ ul {
 }
 
 .logo {
+  color: var(--accent-color);
 }
 
 /* шапка сайта */
