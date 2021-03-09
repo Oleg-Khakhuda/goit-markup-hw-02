@@ -101,30 +101,13 @@ body {
   letter-spacing: 0.06em;
 }
 
-.projects .button-primary {
-  color: var(--title-text-color);
-  background-color: var(--background-button-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-
-.projects .button-primary:hover,
-.projects .button-primary:focus {
-  color: var(--primary-write-color);
-  background-color: var(--accent-color);
-}
-
 /* Особенности */
 
 .features ul {
   list-style: none;
 }
 
-.features .title {
-  color: var(--title-text-color);
-}
-
+.features .title,
 .features .list-title {
   color: var(--title-text-color);
 }
@@ -158,6 +141,7 @@ h2 {
 }
 
 .team h3 {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -170,11 +154,6 @@ h2 {
   text-align: center;
 }
 
-.team .title,
-.team .name {
-  color: var(--title-text-color);
-}
-
 /* footer */
 
 .footer .title {
@@ -185,23 +164,37 @@ h2 {
   line-height: 1.7;
 }
 
-.adr .link,
-.adr ul {
+.footer .link {
   background-color: violet;
   font-style: normal;
   list-style: none;
   text-decoration: none;
-}
-
-.footer .link {
   color: var(--complementary-color);
   font-size: 14px;
   line-height: 1.7;
 }
 
+footer li {
+  list-style: none;
+}
+
 /* Portfolio */
 
 /* Наши проекты */
+
+.projects .primary {
+  color: var(--title-text-color);
+  background-color: var(--background-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.projects .primary:hover,
+.projects .primary:focus {
+  color: var(--primary-write-color);
+  background-color: var(--accent-color);
+}
 
 .site-projects .title {
   color: var(--title-text-color);
@@ -219,9 +212,5 @@ h2 {
 
 .projects li,
 .site-projects li {
-  list-style: none;
-}
-
- {
   list-style: none;
 }
