@@ -95,6 +95,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Особенности */
@@ -182,6 +183,7 @@ footer li {
   font-weight: var(--medium-font-weight);
   font-size: var(--secondary-font-size);
   line-height: 1.62;
+  cursor: pointer;
 }
 
 .projects .primary:hover,
