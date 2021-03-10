@@ -62,7 +62,6 @@ body {
 
 .nav-link li,
 .nav-link .link {
-  color: var(--primary-text-color);
   font-weight: var(--medium-font-weight);
   line-height: 1.14;
   text-decoration: none;
@@ -199,7 +198,6 @@ footer li {
 }
 
 .site-projects p {
-  color: var(--primary-text-color);
   font-weight: var(--regular-font-weight);
   font-size: var(--secondary-font-size);
   line-height: 1.9;
