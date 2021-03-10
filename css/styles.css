@@ -5,6 +5,7 @@
   --primary-write-color: #ffffff;
   --complementary-color: rgba(255, 255, 255, 0.6);
   --background-button-color: #f5f4fa;
+  --logo-color: #000000;
 
   --regular-font-weight: 400;
   --medium-font-weight: 500;
@@ -37,7 +38,7 @@ body {
 }
 
 .logo-second {
-  color: #000000;
+  color: var(--logo-color);
 }
 
 /* шапка сайта */
@@ -156,20 +157,28 @@ h2 {
 
 .footer .title {
   background-color: violet;
+  font-style: normal;
   color: var(--primary-write-color);
   line-height: 1.7;
 }
 
 .footer .link {
   background-color: violet;
+  font-style: normal;
   list-style: none;
   text-decoration: none;
   color: var(--complementary-color);
   line-height: 1.7;
 }
 
-footer li {
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+.footer li {
   list-style: none;
+  font-style: normal;
 }
 
 /* Portfolio */
