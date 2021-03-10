@@ -5,29 +5,25 @@
   --primary-write-color: #ffffff;
   --complementary-color: rgba(255, 255, 255, 0.6);
   --background-button-color: #f5f4fa;
+
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+  --bold-font-weight: 700;
+  --black-font-weight: 900;
 }
 
 body {
   background-color: var(--primary-write-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
   font-size: 14px;
   line-height: 1.7;
 }
 
-/* Убирает подчекивание ссылок */
-/* a {
-  text-decoration: none;
-} */
-
-/* Убирает точки в списках */
-/* ul {
-  list-style: none;
-} */
-
 .logo {
   font-family: raleway, sans-serif;
+  font-weight: var(--bold-font-weight);
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -46,7 +42,7 @@ body {
 .site-nav-list li,
 .site-nav-list .link {
   color: var(--title-text-color);
-  font-weight: 500;
+  font-weight: var(--medium-font-weight);
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
@@ -65,7 +61,7 @@ body {
 .nav-link li,
 .nav-link .link {
   color: var(--primary-text-color);
-  font-weight: 500;
+  font-weight: var(--medium-font-weight);
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
@@ -82,7 +78,7 @@ body {
 .hero .title {
   background-color: violet;
   color: var(--primary-write-color);
-  font-weight: 900;
+  font-weight: var(--black-font-weight);
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -93,7 +89,7 @@ body {
 .hero .button {
   color: var(--primary-write-color);
   background-color: var(--accent-color);
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   font-size: 16px;
   line-height: 1.9;
   align-items: center;
@@ -113,7 +109,7 @@ body {
 }
 
 .features h3 {
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -128,7 +124,7 @@ body {
 
 h2 {
   color: var(--title-text-color);
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -142,7 +138,7 @@ h2 {
 
 .team h3 {
   color: var(--title-text-color);
-  font-weight: 500;
+  font-weight: var(--medium-font-weight);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -185,7 +181,7 @@ footer li {
 .projects .primary {
   color: var(--title-text-color);
   background-color: var(--background-button-color);
-  font-weight: 500;
+  font-weight: var(--medium-font-weight);
   font-size: 16px;
   line-height: 1.62;
 }
@@ -198,14 +194,14 @@ footer li {
 
 .site-projects .title {
   color: var(--title-text-color);
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   font-size: 18px;
   line-height: 2;
 }
 
 .site-projects p {
   color: var(--primary-text-color);
-  font-weight: 400;
+  font-weight: var(--regular-font-weight);
   font-size: 16px;
   line-height: 1.9;
 }
