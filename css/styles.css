@@ -6,6 +6,7 @@
   --complementary-color: rgba(255, 255, 255, 0.6);
   --background-button-color: #f5f4fa;
   --logo-color: #000000;
+  --background-section-color: #2f303a;
 
   --regular-font-weight: 400;
   --medium-font-weight: 500;
@@ -75,7 +76,6 @@ body {
 /* hero */
 
 .hero .title {
-  background-color: violet;
   color: var(--primary-write-color);
   font-weight: var(--black-font-weight);
   font-size: 44px;
@@ -83,6 +83,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.hero {
+  background-color: var(--background-section-color);
 }
 
 .hero .button {
@@ -152,15 +156,17 @@ h2 {
 
 /* footer */
 
+.footer {
+  background-color: var(--background-section-color);
+}
+
 .footer .title {
-  background-color: violet;
   font-style: normal;
   color: var(--primary-write-color);
   line-height: 1.7;
 }
 
 .footer .link {
-  background-color: violet;
   font-style: normal;
   list-style: none;
   text-decoration: none;
