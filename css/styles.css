@@ -27,6 +27,7 @@ body {
 
 .logo {
   font-family: raleway, sans-serif;
+  color: var(--logo-color);
   font-weight: var(--bold-font-weight);
   font-size: 26px;
   line-height: 1.2;
@@ -35,10 +36,6 @@ body {
 
 .logo-first {
   color: var(--accent-color);
-}
-
-.logo-second {
-  color: var(--logo-color);
 }
 
 /* шапка сайта */
