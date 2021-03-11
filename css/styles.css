@@ -103,7 +103,7 @@ body {
 
 /* Особенности */
 
-.features ul {
+.features .list {
   list-style: none;
 }
 
@@ -112,7 +112,7 @@ body {
   color: var(--title-text-color);
 }
 
-.features h3 {
+.features .list-title {
   font-size: var(--main-font-size);
   font-weight: var(--bold-font-weight);
   line-height: 1.14;
@@ -122,11 +122,12 @@ body {
 
 /* Чем мы занимаемся */
 
-.work-list ul {
+.work-list .list {
   list-style: none;
 }
 
-h2 {
+.work-list .title,
+.team .title {
   color: var(--title-text-color);
   font-weight: var(--bold-font-weight);
   font-size: 36px;
@@ -136,11 +137,11 @@ h2 {
 
 /* Наша команда */
 
-.team ul {
+.team .list {
   list-style: none;
 }
 
-.team h3 {
+.team .name {
   color: var(--title-text-color);
   font-weight: var(--medium-font-weight);
   font-size: var(--secondary-font-size);
@@ -148,7 +149,7 @@ h2 {
   text-align: center;
 }
 
-.team p {
+.team .profession {
   font-size: var(--secondary-font-size);
   line-height: 1.18;
   text-align: center;
@@ -179,7 +180,7 @@ h2 {
   color: var(--accent-color);
 }
 
-.footer li {
+.footer .list {
   list-style: none;
   font-style: normal;
 }
@@ -210,13 +211,13 @@ h2 {
   line-height: 2;
 }
 
-.site-projects p {
+.site-projects .direction {
   font-weight: var(--regular-font-weight);
   font-size: var(--secondary-font-size);
   line-height: 1.9;
 }
 
-.projects li,
-.site-projects li {
+.projects,
+.site-projects .link {
   list-style: none;
 }
