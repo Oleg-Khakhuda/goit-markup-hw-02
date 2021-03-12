@@ -41,7 +41,7 @@ body {
 
 /* шапка сайта */
 
-.site-nav-list li,
+.site-nav-list,
 .site-nav-list .link {
   color: var(--title-text-color);
   font-weight: var(--medium-font-weight);
@@ -51,26 +51,23 @@ body {
 }
 
 .site-nav-list .link:hover,
-.site-nav-list .link:focus {
+.site-nav-list .link:focus,
+.nav-link .link:hover,
+.nav-link .link:focus {
   color: var(--accent-color);
 }
 
-.site-nav-list .link.current {
+.link.current {
   color: var(--accent-color);
 }
 
-.nav-link li,
+.nav-link,
 .nav-link .link {
   color: var(--primary-text-color);
   font-weight: var(--medium-font-weight);
   line-height: 1.14;
   text-decoration: none;
   list-style: none;
-}
-
-.nav-link .link:hover,
-.nav-link .link:focus {
-  color: var(--accent-color);
 }
 
 /* hero */
@@ -99,6 +96,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
 }
 
 /* Особенности */
@@ -136,6 +138,10 @@ body {
 }
 
 /* Наша команда */
+
+.team {
+  background: #f5f4fa;
+}
 
 .team .list {
   list-style: none;
@@ -202,6 +208,15 @@ body {
 .projects .primary:focus {
   color: var(--primary-write-color);
   background-color: var(--accent-color);
+}
+
+.primary.all {
+  color: var(--primary-write-color);
+  background-color: var(--accent-color);
+}
+
+.site-projects {
+  list-style: none;
 }
 
 .site-projects .title {
